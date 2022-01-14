@@ -8,7 +8,6 @@ public class CustomExceptionDemo {
         try {
             test();
         } catch (MyException ex) {
-//            Logger.getLogger(NewClass.class.getName()).log(Level.SEVERE, null, ex);
             System.out.println("错误码：" + ex.getErrorCode() + ",error msg:" + ex.getMessage());
         } catch (IntegerRangeException ex) {
             System.out.println(ex.getMessage());
