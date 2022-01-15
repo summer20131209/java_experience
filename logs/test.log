@@ -1,0 +1,8 @@
+2022-01-16 01:42:00,693 [main] TRACE Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 23] - test_trace
+2022-01-16 01:42:00,703 [main] DEBUG Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 24] - test_debug
+2022-01-16 01:42:00,703 [main] INFO  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 26] - test_info
+2022-01-16 01:42:00,704 [main] WARN  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 27] - test_warn
+2022-01-16 01:42:00,704 [main] ERROR Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 28] - test_error
+2022-01-16 01:42:48,107 [main] INFO  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 26] - test_info
+2022-01-16 01:42:48,109 [main] WARN  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 27] - test_warn
+2022-01-16 01:42:48,109 [main] ERROR Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 28] - test_error
