@@ -26,5 +26,33 @@ public class Slf4jAndLogbackDemo {
         logger.info("test_info");
         logger.warn("test_warn");
         logger.error("test_error");
+
+        Person p = new Person();
+        int score = 99;
+        p.setScore(score);
+        p.setName("张三");
+        //slf4j 支持占位符方式
+        logger.info("Set score {} for Person {} ok.", score, p.getName());
+    }
+
+    static class Person{
+        int score;
+        String name;
+
+        public int getScore() {
+            return score;
+        }
+
+        public void setScore(int score) {
+            this.score = score;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
     }
 }

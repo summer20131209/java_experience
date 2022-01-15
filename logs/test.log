@@ -6,3 +6,7 @@
 2022-01-16 01:42:48,107 [main] INFO  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 26] - test_info
 2022-01-16 01:42:48,109 [main] WARN  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 27] - test_warn
 2022-01-16 01:42:48,109 [main] ERROR Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 28] - test_error
+2022-01-16 01:48:00,585 [main] INFO  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 26] - test_info
+2022-01-16 01:48:00,587 [main] WARN  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 27] - test_warn
+2022-01-16 01:48:00,588 [main] ERROR Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 28] - test_error
+2022-01-16 01:48:00,588 [main] INFO  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 34] - Set score 99 for Person 张三 ok.
