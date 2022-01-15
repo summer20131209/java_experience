@@ -11,7 +11,8 @@ import org.apache.commons.logging.LogFactory;
 //        DEBUG
 //        TRACE
 // 举例，如使用info,则只有info及以上级别的日志打印
-// 详细使用参考：https://www.liaoxuefeng.com/wiki/1252599548343744/1264738932870688
+// 详细使用参考：https://www.jianshu.com/p/258d3bd72005
+//            https://www.liaoxuefeng.com/wiki/1252599548343744/1264738932870688
 public class ApacheCommonLogDemo {
 
     private static Log logger = LogFactory.getLog(ApacheCommonLogDemo.class);

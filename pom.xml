@@ -35,6 +35,7 @@
 <!--            <version>1.7.2</version>-->
 <!--        </dependency>-->
 
+        <!--apache common logging-->
         <dependency>
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
