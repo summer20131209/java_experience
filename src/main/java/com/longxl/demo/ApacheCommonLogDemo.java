@@ -10,9 +10,11 @@ import org.apache.commons.logging.LogFactory;
 //        INFO
 //        DEBUG
 //        TRACE
-public class CommonLogDemo {
+// 举例，如使用info,则只有info及以上级别的日志打印
+// 详细使用参考：https://www.liaoxuefeng.com/wiki/1252599548343744/1264738932870688
+public class ApacheCommonLogDemo {
 
-    private static Log logger = LogFactory.getLog(CommonLogDemo.class);
+    private static Log logger = LogFactory.getLog(ApacheCommonLogDemo.class);
 
     public static void main(String[] args) {
         //使用logger输出日志
@@ -21,5 +23,11 @@ public class CommonLogDemo {
         logger.info("INFO ...");
         logger.error("ERROR ...");
         logger.warn("WARN...");
+        try{
+            int ab = 7/0;
+            logger.info("INFO ...");
+        }catch (Exception e){
+            logger.error("除数不能为0",e);
+        }
     }
 }

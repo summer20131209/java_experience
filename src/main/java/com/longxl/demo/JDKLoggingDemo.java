@@ -14,6 +14,7 @@ import java.util.logging.Logger;
  * FINEST
  *
  * 举例，如使用info,则只有info及以上级别的日志打印
+ * 详细使用参考：https://www.liaoxuefeng.com/wiki/1252599548343744/1264738568571776
  */
 public class JDKLoggingDemo {
 
