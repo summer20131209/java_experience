@@ -1,12 +1,25 @@
-2022-01-16 01:42:00,693 [main] TRACE Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 23] - test_trace
-2022-01-16 01:42:00,703 [main] DEBUG Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 24] - test_debug
-2022-01-16 01:42:00,703 [main] INFO  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 26] - test_info
-2022-01-16 01:42:00,704 [main] WARN  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 27] - test_warn
-2022-01-16 01:42:00,704 [main] ERROR Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 28] - test_error
-2022-01-16 01:42:48,107 [main] INFO  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 26] - test_info
-2022-01-16 01:42:48,109 [main] WARN  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 27] - test_warn
-2022-01-16 01:42:48,109 [main] ERROR Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 28] - test_error
-2022-01-16 01:48:00,585 [main] INFO  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 26] - test_info
-2022-01-16 01:48:00,587 [main] WARN  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 27] - test_warn
-2022-01-16 01:48:00,588 [main] ERROR Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 28] - test_error
-2022-01-16 01:48:00,588 [main] INFO  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 34] - Set score 99 for Person 张三 ok.
+2022-01-16 14:39:07,707 [main] INFO  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 26] - test_info
+2022-01-16 14:39:07,709 [main] WARN  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 27] - test_warn
+2022-01-16 14:39:07,709 [main] ERROR Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 28] - test_error
+2022-01-16 14:39:07,710 [main] INFO  Slf4jAndLogbackDemo [Slf4jAndLogbackDemo.java : 35] - Set score 99 for Person 张三 ok.
+2022-01-16 15:41:22,637 [main] INFO  com.longxl.demo.Log4j2SimpleDemo [Log4j2SimpleDemo.java : 39] - slf4j+log4j2 记录info日志 
+2022-01-16 15:41:22,639 [main] WARN  com.longxl.demo.Log4j2SimpleDemo [Log4j2SimpleDemo.java : 41] - slf4j+log4j2 记录warn日志 
+2022-01-16 15:41:22,639 [main] ERROR com.longxl.demo.Log4j2SimpleDemo [Log4j2SimpleDemo.java : 42] - slf4j+log4j2 记录error日志 
+2022-01-16 15:42:43,451 [main] INFO  com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 33] - slf4j+log4j2 记录info日志 
+2022-01-16 15:42:43,453 [main] WARN  com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 35] - slf4j+log4j2 记录warn日志 
+2022-01-16 15:42:43,453 [main] ERROR com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 36] - slf4j+log4j2 记录error日志 
+2022-01-16 15:43:24,205 [main] INFO  com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 33] - slf4j+log4j2 记录info日志 
+2022-01-16 15:43:24,207 [main] WARN  com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 35] - slf4j+log4j2 记录warn日志 
+2022-01-16 15:43:24,207 [main] ERROR com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 36] - slf4j+log4j2 记录error日志 
+2022-01-16 15:43:31,267 [main] INFO  com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 33] - slf4j+log4j2 记录info日志 
+2022-01-16 15:43:31,268 [main] WARN  com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 35] - slf4j+log4j2 记录warn日志 
+2022-01-16 15:43:31,269 [main] ERROR com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 36] - slf4j+log4j2 记录error日志 
+2022-01-16 15:44:40,677 [main] INFO  com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 33] - slf4j+log4j2 记录info日志 
+2022-01-16 15:44:40,680 [main] WARN  com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 35] - slf4j+log4j2 记录warn日志 
+2022-01-16 15:44:40,680 [main] ERROR com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 36] - slf4j+log4j2 记录error日志 
+2022-01-16 15:49:22,965 [main] INFO  com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 33] - slf4j+log4j2 记录info日志 
+2022-01-16 15:49:22,967 [main] WARN  com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 35] - slf4j+log4j2 记录warn日志 
+2022-01-16 15:49:22,968 [main] ERROR com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 36] - slf4j+log4j2 记录error日志 
+2022-01-16 15:49:56,230 [main] INFO  com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 33] - slf4j+log4j2 记录info日志 
+2022-01-16 15:49:56,232 [main] WARN  com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 35] - slf4j+log4j2 记录warn日志 
+2022-01-16 15:49:56,232 [main] ERROR com.longxl.demo.Slf4jAndLog4j2Demo [Slf4jAndLog4j2Demo.java : 36] - slf4j+log4j2 记录error日志 

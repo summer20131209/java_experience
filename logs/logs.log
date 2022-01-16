@@ -1,0 +1,14 @@
+2022-01-16 15:31:50,354 INFO  log4j2日志 
+[java_experience]:2022-01-16 15:33:12,611 INFO  com.longxl.demo.Log4j2SimpleDemo 33 - log4j2日志 
+[java_experience]:2022-01-16 15:33:36,195 INFO  com.longxl.demo.Log4j2SimpleDemo:33 - log4j2日志 
+[java_experience]:2022-01-16 15:34:13,311 [INFO ] com.longxl.demo.Log4j2SimpleDemo:33 - log4j2日志 
+[java_experience]:2022-01-16 15:34:39,227 [INFO ] com.longxl.demo.Log4j2SimpleDemo:33 - log4j2日志 
+[java_experience]:2022-01-16 15:39:01,729 [INFO ] com.longxl.demo.Log4j2SimpleDemo:36 - log4j2日志 
+[java_experience]:2022-01-16 15:39:01,782 [INFO ] com.longxl.demo.Log4j2SimpleDemo:39 - slf4j+log4j2 记录info日志 
+[java_experience]:2022-01-16 15:39:01,782 [DEBUG] com.longxl.demo.Log4j2SimpleDemo:40 - slf4j+log4j2 记录debug日志 
+[java_experience]:2022-01-16 15:39:01,783 [WARN ] com.longxl.demo.Log4j2SimpleDemo:41 - slf4j+log4j2 记录warn日志 
+[java_experience]:2022-01-16 15:39:01,783 [ERROR] com.longxl.demo.Log4j2SimpleDemo:42 - slf4j+log4j2 记录error日志 
+[java_experience]:2022-01-16 15:39:01,783 [FATAL] com.longxl.demo.Log4j2SimpleDemo:43 - slf4j+log4j2 记录fatal日志 
+[java_experience]:2022-01-16 15:39:22,695 [WARN ] com.longxl.demo.Log4j2SimpleDemo:41 - slf4j+log4j2 记录warn日志 
+[java_experience]:2022-01-16 15:39:22,698 [ERROR] com.longxl.demo.Log4j2SimpleDemo:42 - slf4j+log4j2 记录error日志 
+[java_experience]:2022-01-16 15:39:22,698 [FATAL] com.longxl.demo.Log4j2SimpleDemo:43 - slf4j+log4j2 记录fatal日志 

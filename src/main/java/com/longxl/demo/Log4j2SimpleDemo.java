@@ -27,9 +27,9 @@ public class Log4j2SimpleDemo {
     void test(int a,String b){
         //log4j1.info() 要高于log4j.properties文件的rootLogger设置日志级别才会正常显示
         org.apache.log4j.Logger log4j1 = org.apache.log4j.LogManager.getLogger(Log4j2SimpleDemo.class);
-        log4j1.info("log4j1日志" + log4j1.getClass().getName());
+        log4j1.info("log4j1日志");
 
         org.apache.logging.log4j.Logger log4j2 = org.apache.logging.log4j.LogManager.getLogger(Log4j2SimpleDemo.class);
-        log4j2.info("log4j2日志 " + log4j2.getClass().getName());
+        log4j2.info("log4j2日志 ");
     }
 }
