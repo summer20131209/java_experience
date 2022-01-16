@@ -28,7 +28,7 @@ public class Slf4jAndLog4j2Demo {
      * @author longxl2020@163.com
      */
     void test(int a,String b){
-        //logger.info() 要高于log4j.properties文件的rootLogger设置日志级别才会正常显示
+        //logger.info() 要高于log4j.properties文件的rootLogger设置日志级别才会正常显示，如遇冲突，注释logback 依赖
         Logger logger = LoggerFactory.getLogger(Slf4jAndLog4j2Demo.class);
         logger.info("slf4j+log4j2 记录info日志 ");
         logger.debug("slf4j+log4j2 记录debug日志 ");
