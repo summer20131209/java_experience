@@ -109,7 +109,7 @@ public class RSADemo {
 
     public static void main(String[] args) {
         try {
-            Logger logger = LoggerFactory.getLogger(Slf4jAndLog4j2Demo.class);
+            Logger logger = LoggerFactory.getLogger(RSADemo.class);
             RSADemo rsaDemo = new RSADemo();
             Map<String, String> map = rsaDemo.createKeys(1024);
             PublicKey = map.get("publicKey");
