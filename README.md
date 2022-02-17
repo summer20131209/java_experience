@@ -22,3 +22,6 @@ maven解决依赖冲突:https://www.baeldung.com/slf4j-classpath-multiple-bindin
 
 2021/1/20
 RSA加解密例子
+
+2021/1/20
+lambda使用例子
