@@ -5,6 +5,8 @@ package com.longxl.thread;
  */
 public class ThreadSleepDemo {
     public static void main(String[] args) {
+        String currentThreadName = Thread.currentThread().getName();
+        System.out.println("currentThreadName:"+currentThreadName);
         MyThread mythread = new MyThread();
         long starttime = System.currentTimeMillis();
         System.out.println("主线程开始时间=" + starttime);
@@ -14,6 +16,7 @@ public class ThreadSleepDemo {
         System.out.println("主线程时间差=" + (endtime - starttime));
 
 //        输出：
+//        currentThreadName:main
 //        主线程开始时间=1648281852278
 //        主线程结束时间=1648281852345
 //        主线程时间差=67
